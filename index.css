@@ -1,0 +1,98 @@
+* {
+    font-family: "Roboto Slab", sans-serif;
+    font-size: 14px;
+    margin: 0 auto;
+}
+#header {
+    background-color: brown ;
+    height: 200px;
+    width: 1920px;
+}
+.topbar {
+    background-color: #353535;
+    width: 1920px;
+    height: 50px;
+    float: left;
+}
+.flex-left {
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: 220px;
+}
+.flex-left ul{
+    margin-top: 19px;
+    color: rgb(174, 163, 165);
+    font-size: 14px;
+}
+.flex-center {
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.flex-center ul{
+    margin-top: 19px;
+    color: rgb(174, 163, 165);
+    font-size: 14px;
+}
+.flex-right {
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.flex-right ul{
+    margin-top: 19px;
+    margin-left: 30px;
+    color: rgb(174, 163, 165);
+    font-size: 14px;
+}
+.flex-late {
+    width: 400px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+}
+.flex-late ul{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.flex-late ul a {
+    font-size: 15px;
+    color: rgb(174, 163, 165);
+}
+.flex-late ul a:hover {
+    color: red;
+}
+.bottom{
+    width: 1920px;
+    height: 150px;
+    float: left;
+}
+.bottom-left{
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin-left: 220px;
+}
+.bottom-left img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+.bottom-center{
+    width: 400px;
+    height: 150px;
+    float: left;
+    margin-left: 50px;
+    background-color: blue;
+}
+.bottom-center-left {
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    background-color: white;
+}
