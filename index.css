@@ -346,7 +346,7 @@
     
     #content {
         width: 1920px;
-        height: 950px;
+        height: 900px;
     }
     
     #content .product {
@@ -569,4 +569,315 @@
     
     #content .row1-bottom .button-primary .price-btn h1 {
         font-size: 17px;
+    }
+    
+    #mona-gallery {
+        width: 1920px;
+        height: 130px;
+        background-color: rgb(215, 215, 215);
+    }
+    
+    #mona-gallery .box-image {
+        width: 180px;
+        height: 70px;
+        float: left;
+        margin-left: 300px;
+        margin-top: 30px;
+    }
+    
+    #mona-gallery .box-image img {
+        width: 150px;
+        height: 70px;
+    }
+    
+    #mona-gallery .box-image1 {
+        width: 180px;
+        height: 70px;
+        float: left;
+        margin-left: 200px;
+        margin-top: 30px;
+    }
+    
+    #mona-gallery .box-image1 img {
+        width: 150px;
+        height: 70px;
+        cursor: pointer;
+    }
+    
+    #section-content {
+        width: 1920px;
+        height: 900px;
+    }
+    
+    #section-content .product {
+        width: 1920px;
+        height: 100px;
+        float: left;
+        background-color: rgb(215, 209, 209);
+    }
+    
+    #section-content .product h3 {
+        font-size: 3.5em;
+        color: #4f4a4a;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #section-content .row {
+        width: 400px;
+        height: 800px;
+        float: left;
+        margin-left: 150px;
+    }
+    
+    #section-content .row .image-zoom {
+        width: 400px;
+        height: 400px;
+        float: left;
+    }
+    
+    #section-content .row .image-zoom img {
+        width: 400px;
+        height: 400px;
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+    
+    #section-content .row .image-zoom img:hover {
+        transform: scale(1.1);
+    }
+    
+    #section-content .row-bottom {
+        width: 400px;
+        height: 300px;
+        float: left;
+        border-style: solid;
+        cursor: pointer;
+        transition: transform .3s;
+        border: 1px solid #cac7c7;
+        /* box-shadow: 0 30px 40px rgba(249, 249, 249, 0.774); */
+    }
+    
+    #section-content .row-bottom:hover {
+        box-shadow: 0px 2px 2px 2px #b1adac;
+    }
+    
+    #section-content .row-bottom .title {
+        width: 400px;
+        height: 50px;
+        float: left;
+    }
+    
+    #section-content .row-bottom .title h1 {
+        font-size: 15px;
+        color: #b1adac;
+        text-transform: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #section-content .row-bottom .description {
+        width: 400px;
+        height: 50px;
+        float: left;
+    }
+    
+    #section-content .row-bottom .description h2 {
+        font-size: 19px;
+        color: #b1adac;
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Roboto Slab", sans-serif;
+    }
+    
+    #section-content .row-bottom .pricetag {
+        width: 400px;
+        height: 100px;
+        float: left;
+    }
+    
+    #section-content .row-bottom .pricetag h3 {
+        color: #ffca44;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 32px;
+    }
+    
+    #section-content .row-bottom .button-primary {
+        width: 400px;
+        height: 100px;
+        float: left;
+    }
+    
+    #section-content .row-bottom .button-primary .price-btn {
+        background-color: #f6f6f3;
+        color: #d4a429;
+        width: 150px;
+        height: 70px;
+        margin-left: 125px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    #section-content .row-bottom .button-primary .price-btn:hover {
+        background-color: rgb(58, 246, 37);
+    }
+    
+    #section-content .row-bottom .button-primary .price-btn h1 {
+        font-size: 17px;
+    }
+    
+    #section-content .row1 {
+        width: 400px;
+        height: 800px;
+        float: left;
+    }
+    
+    #section-content .row1 .image-zoom {
+        width: 400px;
+        height: 400px;
+        float: left;
+    }
+    
+    #section-content .row1 .image-zoom img {
+        width: 400px;
+        height: 400px;
+        transition: transform .2s;
+        margin: 0 auto;
+    }
+    
+    #section-content .row1 .image-zoom img:hover {
+        transform: scale(1.1);
+    }
+    
+    #section-content .row1-bottom {
+        width: 400px;
+        height: 300px;
+        float: left;
+        cursor: pointer;
+        border: 1px solid #cac7c7;
+        /* border-style: groove; */
+        /* box-shadow: 0 30px 40px rgba(249, 249, 249, 0.774); */
+    }
+    
+    #section-content .row1-bottom:hover {
+        box-shadow: 0px 2px 2px 2px #b1adac;
+    }
+    
+    #section-content .row1-bottom .title {
+        width: 400px;
+        height: 50px;
+        float: left;
+    }
+    
+    #section-content .row1-bottom .title h1 {
+        font-size: 15px;
+        color: #b1adac;
+        text-transform: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    #section-content .row1-bottom .description {
+        width: 400px;
+        height: 50px;
+        float: left;
+    }
+    
+    #section-content .row1-bottom .description h2 {
+        font-size: 19px;
+        color: #b1adac;
+        text-align: center;
+        margin-top: 10px;
+        font-family: "Roboto Slab", sans-serif;
+    }
+    
+    #section-content .row1-bottom .pricetag {
+        width: 400px;
+        height: 100px;
+        float: left;
+    }
+    
+    #section-content .row1-bottom .pricetag h3 {
+        color: #ffca44;
+        font-size: 1.5em;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 32px;
+    }
+    
+    #section-content .row1-bottom .button-primary {
+        width: 400px;
+        height: 100px;
+        float: left;
+    }
+    
+    #section-content .row1-bottom .button-primary .price-btn {
+        background-color: #f6f6f3;
+        color: #d4a429;
+        width: 150px;
+        height: 70px;
+        margin-left: 125px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    
+    #section-content .row1-bottom .button-primary .price-btn:hover {
+        background-color: rgb(58, 246, 37);
+    }
+    
+    #section-content .row1-bottom .button-primary .price-btn h1 {
+        font-size: 17px;
+    }
+    
+    #section-content-relative {
+        width: 1920px;
+        height: 200px;
+    }
+    
+    #section-content-relative .row-sale {
+        width: 700px;
+        height: 170px;
+        float: left;
+        margin-left: 235px;
+        background-color: rgb(240, 240, 12);
+    }
+    
+    #section-content-relative .row-sale h2 {
+        font-size: 3.5em;
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #section-content-relative .row-sale p {
+        color: #fff;
+        margin-top: 0.8em;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    #section-content-relative .row-shipping {
+        width: 700px;
+        height: 170px;
+        float: left;
+        margin-left: 50px;
+        background-color: rgb(68, 246, 13);
+    }
+    
+    #section-content-relative .row-shipping h2 {
+        font-size: 3.5em;
+        color: #fff;
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #section-content-relative .row-shipping p {
+        color: #fff;
+        margin-top: 0.8em;
+        font-size: 1.2em;
+        text-align: center;
     }
